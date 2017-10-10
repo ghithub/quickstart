@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
+import {Hero} from './hero';
 
-export class Hero {
-  id: number;
-  name: string;
-}
 
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
@@ -20,8 +17,8 @@ const HEROES: Hero[] = [
 
 @Component({
   selector: 'my-app',
-  templateUrl: '/templates/hero.template.html',
-  styles: [`div {background-color: white;} .badge {color: red;} .selected{background-color: gray;}`],
+  templateUrl: '/templates/app.component.html',
+  styles: [`div {background-color: white;} .badge {color: red;} .selected{background-color: #CFD8DC; color: white;}`],
   //styleUrls: ['/css/style.css']
 })
 export class AppComponent {
