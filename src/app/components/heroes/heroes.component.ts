@@ -3,12 +3,12 @@ import { Hero } from './hero';
 import { HeroService } from '../../services/hero/hero.service';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './templates/app.component.html',
+  selector: 'my-heroes',
+  templateUrl: './templates/heroes.component.html',
   //styles: [`div {background-color: white;} .badge {color: red;} .selected{background-color: #CFD8DC; color: white;}`],
   styleUrls: ['./css/style.css']
 })
-export class AppComponent implements OnInit {
+export class HeroesComponent implements OnInit {
   title = 'Tour of Heroes';
   selectedHero: Hero;
   heroes: Hero[];
