@@ -5,10 +5,12 @@
         <label>name:</label>
         <input [(ngModel)]="hero.name" placeholder="name" />
     </div>
+    <button (click)="goBack()">Back</button>
 </div>
 
+<!-- 
 <ul>
     <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)">
         <span class="badge">{{hero.id}}</span>{{hero.name}}
     </li>
-</ul>
+</ul> -->
