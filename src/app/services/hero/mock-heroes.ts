@@ -1,3 +1,4 @@
+//Not used after adding in-memory web api to service the list of heroes.
 import { Hero } from '../../components/heroes/hero';
 
 export
